@@ -1,8 +1,5 @@
 ## Hi there 👋
 
-<!--
-**mdsaad12-sudo/mdsaad12-sudo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 # 💫 About Me:
 🔭 I’m currently working on cybersecurity projects, networking labs, and AI-powered security experiments<br>👯 I’m looking to collaborate on cybersecurity, CTFs, ethical hacking, and AI security projects<br>🤝 I’m looking for help with penetration testing, cloud security, and AI/ML for cybersecurity<br>🌱 I’m currently learning  ethical hacking, Linux security, network security, C, and cloud security<br>💬 Ask me about cybersecurity, Linux, networking, C, and AI in cybersecurity<br>⚡ Fun fact the more bugs I get the more serious  I get 
 
