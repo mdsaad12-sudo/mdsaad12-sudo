@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img">
+<style>
+text{font-family:'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%{r:5;opacity:.9}100%{r:22;opacity:0}}
+@keyframes sweep{from{transform:translateX(-120%)}to{transform:translateX(320%)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes drift{from{transform:translateY(0)}to{transform:translateY(8px)}}
+@keyframes pop{0%{transform:scale(.7);opacity:0}70%{transform:scale(1.06);opacity:1}100%{transform:scale(1)}}
+.r{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.bl{animation:blink 1s steps(1) infinite}
+.ty{animation:type 1.4s steps(34) forwards;clip-path:inset(0 100% 0 0)}
+.gr{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.8,.2,1) forwards;transform:scaleX(0)}
+.sw{animation:sweep 4s ease-in-out infinite}
+.pp{transform-box:fill-box;transform-origin:center;animation:pop .6s ease-out forwards;opacity:0}
+
+@media (prefers-reduced-motion:reduce){.r,.pp,.gr,.sc,.bl,[style*=animation]{animation:none!important;opacity:1!important;transform:none!important}.gr{transform:scaleX(1)!important}.sw{display:none}[style*=pulse]{display:none}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="440" height="150" rx="16"/></clipPath>
+</defs>
+<rect width="440" height="150" rx="16" fill="#0b1220"/>
+<rect x=".5" y=".5" width="439" height="149" rx="16" fill="none" stroke="#1f2d4a"/>
+<rect x="0" y="0" width="5" height="150" fill="#34d399" clip-path="url(#c)"/><g clip-path="url(#c)"><rect y="0" width="90" height="150" fill="url(#sh)" class="sw" style="animation-delay:0.3s"/></g><g class="r" style="animation-delay:0.3s"><text class="m" x="28" y="38" font-size="17" font-weight="700" fill="#e6edf7">pay-guard</text><text x="416" y="36" text-anchor="end" font-size="10" letter-spacing="2" fill="#34d399" font-weight="700">ML</text></g><g class="r" style="animation-delay:0.5s"><text x="28" y="66" font-size="13" fill="#7d8cab">A cost-aware credit-card fraud detector. Flags fraud and</text></g><g class="r" style="animation-delay:0.6s"><text x="28" y="86" font-size="13" fill="#7d8cab">prices the mistakes in rupees.</text></g><g class="r" style="animation-delay:0.8999999999999999s"><circle cx="32" cy="126" r="5" fill="#34d399"/><text x="46" y="130" font-size="12" fill="#e6edf7">Jupyter Notebook</text></g>
+</svg>
