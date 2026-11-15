@@ -2,7 +2,7 @@
 
 <img src="cards/hero.svg" alt="Mohammed Saad R — cybersecurity student" width="100%">
 
-<a href="https://linkedin.com/in/Mohammed%20Saad%20R"><img src="https://img.shields.io/badge/LinkedIn-0b1220?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/mohammed-saad-r-ab777a383"><img src="https://img.shields.io/badge/LinkedIn-0b1220?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"></a>
 <a href="mailto:mohammedsaad8912@gmail.com"><img src="https://img.shields.io/badge/Email-0b1220?style=for-the-badge&logo=gmail&logoColor=34d399" alt="Email"></a>
 
 <br><br>
